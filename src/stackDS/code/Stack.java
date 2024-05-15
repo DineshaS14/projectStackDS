@@ -2,6 +2,7 @@ package stackDS.code;
 
 import stackDS.code.Node;
 import java.lang.NullPointerException;
+import java.lang.reflect.Array;
 
 /** This class represent the implementation of Stack Data Structure.
  *  Generic T lets us hold many objects in it.
@@ -87,18 +88,19 @@ public class Stack<T> {
     /** Method returns a list as an Array.
      *  @return T[] array
      */
+    @SuppressWarnings("unchecked")
     public T[] toArray() {
-        @SuppressWarnings("unchecked")
-        T[] array = (T[]) new Object[size];
-        Node<T> current = this.top;
+        // getClass() from object class.
+        T[] array = (T[]) Array.newInstance(top.getItem().getClass(), size);
+        Node<T> current = top;
         int index = 0;
         while (current != null) {
             array[index] = current.getItem();
             current = current.getNext();
-            index++; // incrementing index
-        } // while loop
+            index++;
+        }
         return array;
-    } // toArray
+    }
 
     /**
      * {@inheritDoc}
