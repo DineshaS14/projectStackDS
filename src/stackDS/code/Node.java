@@ -26,16 +26,16 @@ public class Node<T> {
     /** Method sets the node to its value.
      *  @param value
      */
-    public void setNode(T value) {
+    public void setItem(T value) {
         this.value = value;
-    } // setNode
+    } // setItem
 
     /** method returns the current Node.
      *  @return value of the current Node
      */
-    public T getNode() {
+    public T getItem() {
         return this.value;
-    } // getNode
+    } // getItem
 
     /** Method sets the next Node which is a link for the list..
      *  @param nextValue
