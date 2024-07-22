@@ -40,55 +40,44 @@ T[] toArray(): Converts the stack to an array.
 String toString(): Returns a string representation of the stack.
 
 Stack Class
+
 isEmpty():
+Time Complexity: O(1) Space Complexity: O(1)
 
-Time Complexity: O(1)
-Space Complexity: O(1)
 push(T value):
+Time Complexity: O(1) Space Complexity: O(1)
 
-Time Complexity: O(1)
-Space Complexity: O(1)
 pop():
+Time Complexity: O(1) Space Complexity: O(1)
 
-Time Complexity: O(1)
-Space Complexity: O(1)
 peek():
+Time Complexity: O(1) Space Complexity: O(1)
 
-Time Complexity: O(1)
-Space Complexity: O(1)
 clear():
+Time Complexity: O(1) Space Complexity: O(1)
 
-Time Complexity: O(1)
-Space Complexity: O(1)
 contains(T value):
+Time Complexity: O(n) Space Complexity: O(1)
 
-Time Complexity: O(n)
-Space Complexity: O(1)
 toArray():
+Time Complexity: O(n) Space Complexity: O(n)
 
-Time Complexity: O(n)
-Space Complexity: O(n)
 toString():
+Time Complexity: O(n) Space Complexity: O(n)
 
-Time Complexity: O(n)
-Space Complexity: O(n)
 Node Class
+
 setItem(T value):
+Time Complexity: O(1) Space Complexity: O(1)
 
-Time Complexity: O(1)
-Space Complexity: O(1)
 getItem():
+Time Complexity: O(1) Space Complexity: O(1)
 
-Time Complexity: O(1)
-Space Complexity: O(1)
 setNext(Node<T> nextValue):
+Time Complexity: O(1) Space Complexity: O(1)
 
-Time Complexity: O(1)
-Space Complexity: O(1)
 getNext():
-
-Time Complexity: O(1)
-Space Complexity: O(1)
+Time Complexity: O(1) Space Complexity: O(1)
 
 By: Dinesha Shair (shair914@gmail.com)
     Feel free to reach out to me with any question or concern!
